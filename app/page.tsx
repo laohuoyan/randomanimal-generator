@@ -8,7 +8,8 @@ import { getRandomNumbersInRange } from '@/utils/common';
 const IMAGE_SHOW_COUNT = 10;
 
 /**
- *  参考：https://www.randomlists.com/random-animals?show_images=true&dup=false&qty=6 
+ *  功能参考：https://www.randomlists.com/random-animals?show_images=true&dup=false&qty=6 
+ *  UI参考：https://tailspark.co/components/breeze/landing
  */
 export default function Home() {
   const genIndexes = () => getRandomNumbersInRange(0, data.length - 1, IMAGE_SHOW_COUNT);
