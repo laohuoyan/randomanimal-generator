@@ -48,7 +48,11 @@ export default function Home() {
               {
                 indexes.map(index => (
                   <a key={index} href="#" className="flex w-full flex-col gap-4 rounded-md border border-solid border-[#dfdfdf] px-4 py-8 text-black md:max-w-xs md:px-0 md:py-0">
-                    <img src={data[index].image} alt="" className="inline-block h-60 w-full object-cover" />
+                    <img
+                      src={data[index].image}
+                      alt={'Random generated animal: ' + data[index].name}
+                      className="inline-block h-60 w-full object-cover"
+                    />
                     <div className="px-6 py-4">
                       <p className="mb-4 text-xl font-semibold">{data[index].name}</p>
                     </div>
