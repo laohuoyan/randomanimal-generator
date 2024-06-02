@@ -6,7 +6,7 @@ import { BASE_URL } from '@/utils/env';
 
 const inter = Inter({ subsets: ["latin"] });
 
-const description = 'Generated a random animal species: A goat, armadillo, orangutan, porpoise, cheetah... Nearly 200 different animals!';
+const description = 'Generated a random animal species: A dog, cat, orangutan, reindeer, owl... Nearly 500 different animals!';
 
 export const metadata: Metadata = {
   title: "Random Animal Generator",

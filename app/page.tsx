@@ -9,6 +9,7 @@ const IMAGE_SHOW_COUNT = 10;
 
 /**
  *  功能参考：https://www.randomlists.com/random-animals?show_images=true&dup=false&qty=6 
+ *  图片来源：https://www.bestrandoms.com/random-animal-generator
  *  UI参考：https://tailspark.co/components/breeze/landing
  */
 export default function Home() {
@@ -52,7 +53,7 @@ export default function Home() {
                 indexes.map(index => (
                   <a key={index} href="#" className="flex w-full flex-col gap-4 rounded-md border border-solid border-[#dfdfdf] px-4 py-8 text-black md:max-w-xs md:px-0 md:py-0">
                     <img
-                      src={data[index].image}
+                      src={'/images/' + data[index].image}
                       alt={'Random generated animal: ' + data[index].name}
                       className="inline-block h-60 w-full object-cover"
                     />
@@ -64,7 +65,6 @@ export default function Home() {
               }
             </div>
              {/* END: 图片画廊 */}
-            
           </div>
         </div>
       </section>
