@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import data from "./data";
+import contentData from './content';
 import { useState } from "react";
 import { getRandomNumbersInRange } from '@/utils/common'; 
 
@@ -66,6 +67,28 @@ export default function Home() {
             </div>
              {/* END: 图片画廊 */}
           </div>
+
+          {/* BEGIN：文本内容 */}
+          <section className="mx-auto w-full max-w-5xl px-5 md:px-10">
+            {contentData.map(item => (
+                <div key={item.question} className="">
+                  <div className="mb-6 rounded-2xl bg-[#eceae2] p-8">
+                    <div className="flex cursor-pointer items-start justify-between">
+                      <p className="text-xl font-bold">{item.question}</p>
+                      {/* <div className="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center">
+                        <div className="absolute h-5 w-0.5 bg-[#0b0b1f]"></div>
+                        <div className="h-0.5 w-5 bg-[#0b0b1f]"></div>
+                      </div> */}
+                    </div>
+                    <div className="mb-4">
+                      <p className="text-[#636262]">{item.answer}</p>
+                    </div>
+                  </div>
+                </div>
+              ))
+            }
+          </section>
+          {/* END：文本内容 */}
         </div>
       </section>
 
