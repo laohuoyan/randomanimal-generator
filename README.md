@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Random Animal Generator
 
-## Getting Started
+Random Animal Generator by [randomanimal-generator](https://randomanimal-generator.com).
 
-First, run the development server:
+You can directly deploy using Vercel.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Live Demo
+
+[https://randomanimal-generator.com](https://randomanimal-generator.com)
+
+![demo](./preview.png)
+
+## Quick Start
+
+1. clone project
+
+```shell
+git clone https://github.com/laohuoyan/randomanimal-generator
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+cd randomanimal-generator
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. local development
 
-## Learn More
+```shell
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+open `http://localhost:3000` for preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Credit to
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [nextjs](https://nextjs.org/docs) for full-stack development
+- [tailwindcss](https://tailwindcss.com/) for page building
 
-## Deploy on Vercel
+## Other Things
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+you can contact me at Twitter: https://x.com/CoderLim
