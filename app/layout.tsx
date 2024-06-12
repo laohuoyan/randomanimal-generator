@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Random Animal Generator",
   description,
   alternates: {
-    canonical: '.',
+    canonical: 'https://randomanimal-generator.com/',
   },
   openGraph: {
     title: "Random Animal Generator",
