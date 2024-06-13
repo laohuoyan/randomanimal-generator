@@ -74,7 +74,7 @@ export default function Home() {
                 <div key={item.question} className="">
                   <div className="mb-6 rounded-2xl bg-[#eceae2] p-8">
                     <div className="flex cursor-pointer items-start justify-between">
-                      <p className="text-xl font-bold">{item.question}</p>
+                      <h2 className="text-xl font-bold">{item.question}</h2>
                       {/* <div className="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center">
                         <div className="absolute h-5 w-0.5 bg-[#0b0b1f]"></div>
                         <div className="h-0.5 w-5 bg-[#0b0b1f]"></div>
